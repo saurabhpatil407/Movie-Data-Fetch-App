@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.container {
+    width: 800px;
+    margin: 20px auto;
+    display: flex;
+    color: rgba(255, 255, 255, 0.708);
+    justify-content: space-between;
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    width: 15%;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.search {
+    width: 85%;
+    box-sizing: border-box;
+    padding: 17px;
+    background-color: #191919;
+    border: none;
+    font-size: 18px;
+    color: white;
+}
+
+.search:focus {
+    outline: none;
+    border: none;
+}
+
+.poster {
+    width: 320px;
+}
+
+p {
+    font-weight: bolder;
+    color: aqua;
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+
+span {
+    font-weight: lighter;
+    color: rgb(247, 247, 247);
+    margin: 0 0 10px 0;
+    font-size: 15px;
+}
